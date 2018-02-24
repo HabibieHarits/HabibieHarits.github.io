@@ -1,55 +1,48 @@
-
-body{
- font: 16px/28px arial,sans-serif;
- background-color: #fff2cc ;
- color           : #333 ;
- 
-
+nav {
+	background-color: black;
+	border-bottom: 1px solid black;
+	width: 1300px;
+	height: 75px;
 }
 
-.container{
-
-	width: 800px;
-	margin: auto;
-	background-color: white;
-	
-}
-
-	.header{
-    padding: 20px;
-}
-.header ul li{
-	display: inline-block;
-	margin-top: 20px;
-	margin-right: 10px;
-}
-.header a{
-	text-decoration: none;
-	color: grey;
-	padding: 3px;
-
-
-}
-
-.header a:hover{
-	background-color: lightskyblue;
+#About {
 	color: white;
+	float: right;
+	margin: 50px auto auto auto;
 }
 
-.gambar{
-	background-size: cover;
-	border-color: lightskyblue;
+.main-content {
+	background-color: black;
+	border: 3px solid black;
+	border left: 1000px;
+	margin: auto;
+	width:  700px;
+	height: 595px;
 }
 
-#article-list{
+#baris-pertama {
+	color: white;
 	padding: 10px;
-	margin-right: 10;
-	letter-spacing: 20;
-
-
-
+	font-family: cursive;
 }
-.footer{
-	background-color: grey;
 
+h1{
+	color: white;
+	margin: 10px auto auto 270px;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font font-family: cursive;
+	margin: auto auto 50px  0px;
+}
+
+a{
+	margin-left: 500px;
+}
+
+footer{
+	float: left;
+	color: white;
 }
